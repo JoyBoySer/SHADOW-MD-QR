@@ -1,3 +1,3 @@
 # qr
 
-  ***Run on [`Replit`](https://replit.com/github/SuhailTechInfo/Baileys-Qr)***
+  ***Run on [`Replit`](https://replit.com/@joyboysar/qr?v=1)***
