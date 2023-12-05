@@ -44,7 +44,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 setTimeout(() => {
   const { default: makeWASocket, useMultiFileAuthState, Browsers, delay, makeInMemoryStore, } = require("@sampandey001/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function ꜱʜᴀᴅᴏᴡ_ʙᴀɪʟᴇʏs_ǫʀ() {
+  async function sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
       let session = makeWASocket({ printQRInTerminal: true, logger: pino({ level: "silent" }), browser: Browsers.macOS("Desktop"), auth: state });
@@ -91,5 +91,5 @@ let cc = `╔════◇
       });
     } catch (err) {console.log(err);await require('child_process').exec('rm -rf auth_info_baileys');process.exit(1);}
   }
-  ꜱʜᴀᴅᴏᴡ_ʙᴀɪʟᴇʏs_ǫʀ();
+  sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ();
 }, 3000)
