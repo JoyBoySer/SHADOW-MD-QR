@@ -91,5 +91,5 @@ let cc = `╔════◇
       });
     } catch (err) {console.log(err);await require('child_process').exec('rm -rf auth_info_baileys');process.exit(1);}
   }
-  sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ();
+  ꜱʜᴀᴅᴏᴡ_ʙᴀɪʟᴇʏs_ǫʀ();
 }, 3000)
