@@ -21,8 +21,8 @@ let qrcode = require("qrcode-terminal");
 
 
 if (fs.existsSync('./auth_info_baileys')) {
-  fs.emptyDirSync(__dirname + '/auth_info_baileys');
-  require('child_process').exec('rm -rf QR BY JOY BOY SER')
+  fs.emptyDirSync(__JoyBoySer + '/auth_info_baileys');
+  require('child_process').exec('rm -rf auth_info_baileys')
   console.log('\nPlease Wait... Removing Cache files');
   setTimeout(() => {   console.log(' ')    }, 100);
   setTimeout(() => {   console.log('Q')    }, 300);
