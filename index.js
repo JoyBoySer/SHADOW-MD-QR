@@ -12,7 +12,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
    * Licensed under the  GPL-3.0 License;
 * 
    * Created By Joy Boy Ser.
-   * © 2023 Suhail-Md.
+   * © 2023 Shadow-Md.
 */
 
 const fs   = require("fs-extra");
